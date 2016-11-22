@@ -1,0 +1,179 @@
+/*FONT FAMILIES
+<link href="https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:400,600,700" rel="stylesheet">
+font-family: 'Nixie One', cursive;
+font-family: 'Open Sans', sans-serif;
+
+/*GLOBAL STYLES*/
+
+$colorDark: #393E41;
+$colorMid: #C1B8B8;
+$colorLight: #FAFAFA;
+body {
+     font-family: 'Open Sans', sans-serif;
+     background-color: $colorLight;
+     color: $colorDark;
+}
+
+
+/*NAVIGATION*/
+
+.container-fluid {
+     background-color: white;
+     border-bottom: .5px solid $colorMid;
+     margin-bottom: 20px;
+     width: 100%;
+     padding: 0px;
+     .container {
+          width: 1100px;
+          .row {
+               nav {
+                    .col-md-7 {
+                         .pencil {
+                              font-size: 20px;
+                              color: #393E41;
+                              margin-top: 15px;
+                              display: inline-block;
+                              float: left;
+                              margin-left: 5px;
+                              margin-right: 3px;
+                         }
+                         h2 {
+                              font-family: 'Nixie One', cursive;
+                              font-size: 28px;
+                              padding-left: 10px;
+                              color: #393E41;
+                              float: left;
+                              margin-top: 10px;
+                              padding-bottom: 6px;
+                         }
+                    }
+                    .col-md-5 {
+                         ul {
+                              font-size: 14px;
+                              margin-top: 19px;
+                              float: right;
+                              li {
+                                   display: inline-block;
+                                   margin-left: 40px;
+                                   a {
+                                        color: $colorDark;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+// HOME
+.col-md-3 {
+     .photoStream {
+          .like {
+               font-size: 12px;
+               text-align: right;
+               margin-right: 17px;
+               padding-top: -9px;
+               margin-top: -15px;
+          }
+          .heart {
+               font-size: 12px;
+               right: 16px;
+               bottom: 10px;
+               position: absolute;
+               z-index: 2;
+          }
+          img {
+               background-color: $colorDark;
+               width: 204px;
+               height: 165px;
+               color: white;
+               margin: 10px;
+               position: relative;
+          }
+     }
+}
+
+h4 {
+     font-size: 12px;
+     margin-top: -1px;
+     position: absolute;
+     margin-left: 18px;
+}
+
+// DETAILS PAGE
+.imageDetail {
+     width: 100%;
+     background-color: $colorDark;
+     height: 500px;
+     color: white;
+}
+
+.title {
+     font-size: 18px;
+     margin-top: 12px;
+     position: absolute;
+     margin-left: -2px;
+}
+
+.description {
+     font-size: 12px;
+     margin-top: 38px;
+}
+
+// ADD BLOG
+.container.main {
+     width: 1100px;
+     padding-left: 100px;
+     padding-right: 100px;
+     .col-md-12 {
+          background-color: none;
+          width: 100%;
+          margin-top: 40px;
+          input {
+               font-family: 'Open Sans', sans-serif;
+               width: 100%;
+               border: none;
+               height: 70px;
+               font-size: 44px;
+               padding-left: 10px;
+          }
+          .description {
+               height: 100px;
+          }
+     }
+}
+
+textarea {
+     font-family: 'Open Sans', sans-serif;
+     width: 100%;
+     border: none;
+     margin-top: 25px;
+     padding-left: 10px;
+     height: 400px;
+     padding-top: 10px;
+     color: $colorDark;
+     font-size: 18px;
+}
+
+button {
+     color: #393E41;
+     background-color: white;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 4px;
+     padding-bottom: 7px;
+     font-size: 14px;
+     border: 0.5px solid #C1B8B8;
+     margin-top: 22px;
+}
+
+
+
+//FOOTER
+footer {
+     font-size: 10px;
+     text-align: center;
+     color: $colorDark;
+     margin-top: 600px;
+}
